@@ -2,7 +2,8 @@
   "name": "@sk337/vite-plugin-pkl",
   "version": "1.1.0",
   "description": "Vite plugin for loading pkl files",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup"
   },
@@ -11,7 +12,8 @@
     "url": "git+https://github.com/sk337/vite-plugin-pkl.git"
   },
   "keywords": [
-    "vite-plugin"
+    "vite-plugin",
+    "pkl"
   ],
   "author": "sk337",
   "license": "WTFPL",
